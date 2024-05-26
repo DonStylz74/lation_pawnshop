@@ -48,9 +48,9 @@ Config.Shops = {
             -- Any item not in this list, cannot be sold here
             -- ['itemSpawnName'] = { label = 'Item Name', price = sellPrice }
             ['water'] = { label = 'Water', price = 5 },
+            ['burger'] = { label = 'Water', price = 5 },
             ['lockpick'] = { label = 'Lockpick', price = 25 },
             ['hotwire'] = { label = 'Cutters', price = 150 },
-            ['armour'] = { label = 'Bulletproof Vest', price = 225 },
             -- Add & remove items here as desired
             -- Be sure to follow the same format as above
         },
@@ -79,9 +79,9 @@ Config.Shops = {
         account = 'cash',
         allowlist = {
             ['water'] = { label = 'Water', price = 5 },
+            ['burger'] = { label = 'Water', price = 5 },
             ['lockpick'] = { label = 'Lockpick', price = 25 },
             ['hotwire'] = { label = 'Cutters', price = 150 },
-            ['armour'] = { label = 'Bulletproof Vest', price = 225 },
         },
         placeholders = true,
         blip = {
@@ -104,9 +104,9 @@ Config.Shops = {
         account = 'cash',
         allowlist = {
             ['water'] = { label = 'Water', price = 5 },
+            ['burger'] = { label = 'Water', price = 5 },
             ['lockpick'] = { label = 'Lockpick', price = 25 },
             ['hotwire'] = { label = 'Cutters', price = 150 },
-            ['armour'] = { label = 'Bulletproof Vest', price = 225 },
         },
         placeholders = true,
         blip = {
@@ -129,9 +129,9 @@ Config.Shops = {
         account = 'cash',
         allowlist = {
             ['water'] = { label = 'Water', price = 5 },
+            ['burger'] = { label = 'Water', price = 5 },
             ['lockpick'] = { label = 'Lockpick', price = 25 },
             ['hotwire'] = { label = 'Cutters', price = 150 },
-            ['armour'] = { label = 'Bulletproof Vest', price = 225 },
         },
         placeholders = true,
         blip = {
