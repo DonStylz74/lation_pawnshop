@@ -17,7 +17,7 @@ Config.VersionCheck = true
 -- Target system, available options are: 'ox_target', 'qb-target', 'qtarget', 'custom' & 'none'
 -- 'custom' needs to be added to client/functions.lua
 -- If 'none' then TextUI is used instead of targeting
-Config.Target = 'qtarget'
+Config.Target = 'ox_target'
 
 -- Notification system, available options are: 'ox_lib', 'esx', 'qb', 'okok' & 'custom'
 -- 'custom' needs to be added to client/functions.lua
