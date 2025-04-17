@@ -59,7 +59,7 @@ Config.Shops = {
             -- What items can be sold here
             -- Any item not in this list, cannot be sold here
             -- ['itemSpawnName'] = { label = 'Item Name', price = sellPrice }
-            ['water'] = { label = 'Water', price = 50 },
+            ['water'] = { label = 'Water', price = { min = 50, max = 100 } },
             ['panties'] = { label = 'Knickers', price = 10 },
             ['lockpick'] = { label = 'Lockpick', price = 25 },
             ['phone'] = { label = 'Phone', price = 150 },

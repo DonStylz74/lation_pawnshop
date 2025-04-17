@@ -92,7 +92,18 @@ local function BeginTransaction(payload)
                         end
                     end
                     itemAccepted = true
-                    local price, quantity = math.floor(info.price * payload.count), payload.count
+                    local price = 0
+
+                    if type(info.price) == 'table' then
+                        local min, max = info.price.min, info.price.max
+                        if min and max then
+                            price = math.random(min, max)
+                            price = math.floor(price * payload.count)
+                        end
+                    else
+                        price = math.floor((info.price or 0) * payload.count)
+                    end
+                    local quantity = payload.count
                     local result = lib.callback.await('lation_pawnshop:ConfirmSale', source, nil, shopId, item, price, quantity)
                     if not result then
                         EventLog('[main.lua]: BeginTransaction: sale was cancelled by player, cannot proceed..')
