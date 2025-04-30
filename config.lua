@@ -80,7 +80,7 @@ Config.Shops = {
         }
     },
     ['davis'] = {
-        name = 'Davis Pawn Shop',
+        name = 'Davis Pawn & Jewelry',
         slots = 25,
         weight = 100000,
         coords = vec4(130.1092, -1775.4546, 29.7262, 291.5801),
@@ -105,7 +105,7 @@ Config.Shops = {
         }
     },
     ['sandyshores'] = {
-        name = 'Sandy Shores Pawn Shop',
+        name = 'Sandy Shores Pawn & Jewelry',
         slots = 25,
         weight = 100000,
         coords = vec4(1708.0963, 3785.9739, 34.7110, 195.6421),
@@ -129,8 +129,33 @@ Config.Shops = {
             label = 'Pawn Shop'
         }
     },
+    ['alamosea'] = {
+        name = 'Alamo Sea Pawn & Jewelry',
+        slots = 25,
+        weight = 100000,
+        coords = vec4(911.0958, 3652.9812, 32.6897, 175.7850),
+        radius = 1.0,
+        spawnPed = true,
+        pedModel = 'A_M_Y_Business_02',
+        hour = { min = 6, max = 21 },
+        account = 'cash',
+        allowlist = {
+            ['water'] = { label = 'Water', price = 5 },
+            ['burger'] = { label = 'Water', price = 5 },
+            ['lockpick'] = { label = 'Lockpick', price = 25 },
+            ['hotwire'] = { label = 'Cutters', price = 150 },
+        },
+        placeholders = true,
+        blip = {
+            enabled = true,
+            sprite = 59,
+            color = 0,
+            scale = 0.5,
+            label = 'Pawn Shop'
+        }
+    },
     ['paletobay'] = {
-        name = 'Paleto Bay Pawn Shop',
+        name = 'Paleto Bay Pawn & Jewelry',
         slots = 25,
         weight = 100000,
         coords = vec4(-310.3446, 6185.5430, 31.5605, 35.7470),
@@ -154,6 +179,60 @@ Config.Shops = {
             label = 'Pawn Shop'
         }
     },
+  --[[  ['sandyscrapyard'] = {
+        name = 'Sandyshores Scrapyard',
+        slots = 10,
+        weight = 100000,
+        coords = vec4(2341.0732, 3126.5129, 48.2087, 352.3216),
+        radius = 1.5,
+        spawnPed = true,
+        pedModel = 'U_M_Y_SmugMech_01',
+        hour = { min = 6, max = 21 },
+        account = 'cash',
+        allowlist = {
+            ['scrapmetal'] = { label = 'Water', price = 5 },
+            ['scrapsteel'] = { label = 'Water', price = 5 },
+            ['scrapelectronics'] = { label = 'Lockpick', price = 25 },
+            ['scrapglass'] = { label = 'Cutters', price = 5 },
+            ['scrapplastic'] = { label = 'Cutters', price = 5 },
+            ['scraprubber'] = { label = 'Cutters', price = 5 },
+        },
+        placeholders = true,
+        blip = {
+            enabled = true,
+            sprite = 801,
+            color = 0,
+            scale = 0.5,
+            label = 'ScrapYard'
+        }
+    },
+    ['lapuertascrapyard'] = {
+        name = 'La Puerta Scrapyard',
+        slots = 10,
+        weight = 100000,
+        coords = vec4(-499.8001, -1714.2509, 19.8992, 111.5009),
+        radius = 1.5,
+        spawnPed = true,
+        pedModel = 'U_M_Y_SmugMech_01',
+        hour = { min = 6, max = 21 },
+        account = 'cash',
+        allowlist = {
+            ['scrapmetal'] = { label = 'Water', price = 5 },
+            ['scrapsteel'] = { label = 'Water', price = 5 },
+            ['scrapelectronics'] = { label = 'Lockpick', price = 25 },
+            ['scrapglass'] = { label = 'Cutters', price = 5 },
+            ['scrapplastic'] = { label = 'Cutters', price = 5 },
+            ['scraprubber'] = { label = 'Cutters', price = 5 },
+        },
+        placeholders = true,
+        blip = {
+            enabled = true,
+            sprite = 801,
+            color = 0,
+            scale = 0.5,
+            label = 'ScrapYard'
+        }
+    },]]--
     -- Add more pawn shops here as desired
     -- Be sure to follow the same format as above
 }
