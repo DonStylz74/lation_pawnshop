@@ -179,7 +179,7 @@ Config.Shops = {
             label = 'Pawn Shop'
         }
     },
-  --[[  ['sandyscrapyard'] = {
+    ['sandyscrapyard'] = {
         name = 'Sandyshores Scrapyard',
         slots = 10,
         weight = 100000,
@@ -232,7 +232,7 @@ Config.Shops = {
             scale = 0.5,
             label = 'ScrapYard'
         }
-    },]]--
+    },
     -- Add more pawn shops here as desired
     -- Be sure to follow the same format as above
 }
